@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    min-height: 80px;
+  }
+  
+  .navbar-brand {
+    font-family: "Bruno Ace SC", cursive !important;
+    color: #000000;
+    font-weight: 800;
+    font-size: 1.7rem;
+  }
+  
+  .navbar-brand span {
+    color: rgb(2, 68, 169);
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    font-weight: 400 !important;
+    cursor: pointer;
+    color: #605c5c !important;
+  }
+  
+  .nav-item:hover {
+    color: #ef7c8e !important;
+  }
+  
+  .navbar li > i {
+    color: rgba(0, 0, 0, 0.55);
+  }
+  
+  .navbar li > i:hover {
+    color: rgba(0, 0, 0, 0.73);
+  }
+  
+  .navbar .active {
+    display: inline-block;
+  }
+  
+  .navbar .active::after {
+    content: "";
+    height: 5px;
+    background: #707070;
+    border-radius: 5px;
+    display: block;
+  }
+
+  
